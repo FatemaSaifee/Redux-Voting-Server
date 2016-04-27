@@ -1,0 +1,20 @@
+{
+  "name": "my-voting-server",
+  "version": "1.0.0",
+  "description": "voting server made by fatema using redux with node and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
+    "test:watch": "npm run test -- --watch"
+   },
+  "keywords": [
+    "react",
+    "node",
+    "redux"
+  ],
+  "author": "fatema saifee",
+  "license": "BSD-2-Clause",
+  "babel" : {
+    "presets": ["es2015"]
+  }
+}
